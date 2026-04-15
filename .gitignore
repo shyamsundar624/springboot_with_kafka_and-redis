@@ -1,0 +1,26 @@
+cat > .gitignore << 'EOF'
+# Eclipse
+.metadata/
+.recommenders/
+.classpath
+.project
+.settings/
+RemoteSystemsTempFiles/
+
+# IntelliJ
+.idea/
+
+# Maven
+target/
+*.jar
+*.war
+*.class
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+EOF

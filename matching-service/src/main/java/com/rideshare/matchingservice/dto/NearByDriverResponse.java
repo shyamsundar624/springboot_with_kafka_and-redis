@@ -1,0 +1,23 @@
+package com.rideshare.matchingservice.dto;
+/*
+ * Response received from Location Service
+ * where querying for  nearby drivers
+ */
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class NearByDriverResponse {
+
+private String driverId;
+private double latitude;
+private double longitude;
+private double distanceInKm;
+
+
+
+}
